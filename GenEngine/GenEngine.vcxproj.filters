@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{90020618-a61e-4dd8-95e5-10aa6c2ea639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\VertexShaders">
+      <UniqueIdentifier>{acb16afb-eb67-4dd5-a627-c59046802963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\FragmentShaders">
+      <UniqueIdentifier>{ce954da6-723f-47ba-961f-73712f47a422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Render">
+      <UniqueIdentifier>{3e746c33-267e-4b90-b0af-70bf566962e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Utilities">
+      <UniqueIdentifier>{7ad9c250-56c0-4c8f-a516-6c1a73df473f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\LevelEditor">
+      <UniqueIdentifier>{526561e1-2e37-48b3-a5f6-e74a94985556}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="renderer\Shader.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vec.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vec2.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vec3.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\view.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="util\mat4x4.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\lighting.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="level_editor\3dobj.h">
+      <Filter>Archivos de encabezado\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Archivos de encabezado\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="level_editor\level_data.h">
+      <Filter>Archivos de encabezado\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="level_editor.h">
+      <Filter>Archivos de encabezado\LevelEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="util\camera.h">
+      <Filter>Archivos de encabezado\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\renderer.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_app.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="util\glad\glad.c">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\fs_background_dg.fs">
+      <Filter>Shaders\FragmentShaders</Filter>
+    </None>
+    <None Include="shaders\vs_background_dg.vs">
+      <Filter>Shaders\VertexShaders</Filter>
+    </None>
+    <None Include="shaders\vs_proj.vs">
+      <Filter>Shaders\VertexShaders</Filter>
+    </None>
+    <None Include="shaders\fs_col.fs">
+      <Filter>Shaders\FragmentShaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
